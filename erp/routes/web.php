@@ -1,6 +1,16 @@
 <?php
+namespace App;
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\{
+    ProductsController
+};
+
+Route::get('/', function(){
+    return view('/products_home');
+});
+Route::get('/products', [ProductsController::class, 'index']);
+
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +23,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
+
