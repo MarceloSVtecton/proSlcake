@@ -9,7 +9,17 @@ use App\Http\Controllers\{
 Route::get('/', function(){
     return view('/products_home');
 });
+
 Route::get('/products', [ProductsController::class, 'index']);
+
+Route::get('/products/create', [ProductsController::class, 'create']);
+
+Route::post('/products/store', [ProductsController::class, 'store']);
+
+Route::get('/products/{products}', [ProductsController::class, 'edit']);
+
+Route::put('/products/edit', [ProductsController::class, 'update']);
+
 
 
 /*

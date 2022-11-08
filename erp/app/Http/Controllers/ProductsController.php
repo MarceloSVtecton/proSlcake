@@ -16,4 +16,26 @@ class ProductsController extends Controller
 
     }
 
+ public function create()
+    {
+        $products = Products::all();
+        return view('newmaterial', compact ('products'));
+    
+    }    
+
+public function store(Request $request)
+{
+    $input = [
+        'nome' => request('nome'),
+        'preço' => request('preço'),
+        'estoque' => request('estoque'),
+ 
+    ];
+    Products::create($input);
+    
+     return view('newmaterial');
+
+}
+
+
 }
