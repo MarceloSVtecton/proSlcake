@@ -33,7 +33,36 @@ public function store(Request $request)
     ];
     Products::create($input);
     
-     return view('newmaterial');
+    return redirect('products');
+
+}
+
+public function edit(Products $products)
+{
+    return view('/editmaterial', 
+    [
+        'products' => $products
+    ]);
+}
+
+public function update(Products $products, Request $request)
+{
+    $input = [
+        'nome' => request('nome'),
+        'preço' => request('preço'),
+        'estoque' => request('estoque'),
+ 
+    ];
+    $products->fill($input);
+    $products->save();
+    return redirect('products');
+
+}
+
+public function destroy(Products $products)
+{
+    $products->delete();
+    return redirect('products');
 
 }
 

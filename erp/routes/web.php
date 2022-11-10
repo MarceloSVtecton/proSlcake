@@ -16,9 +16,11 @@ Route::get('/products/create', [ProductsController::class, 'create']);
 
 Route::post('/products/store', [ProductsController::class, 'store']);
 
-Route::get('/products/{products}', [ProductsController::class, 'edit']);
+Route::get('/products/{products}/edit', [ProductsController::class, 'edit'])->name('products.edit');
 
-Route::put('/products/edit', [ProductsController::class, 'update']);
+Route::put('/products/{products}/update', [ProductsController::class, 'update'])->name('products.update');
+
+Route::get('/products/{products}/delete', [ProductsController::class, 'destroy'])->name('products.destroy');
 
 
 

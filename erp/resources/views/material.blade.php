@@ -30,8 +30,8 @@
                     <td class="px-4 py-3">{{ $products->preço }}</td>
                     <td class="px-4 py-3">{{ $products->estoque }}</td>
                     <td class="px-4 py-3 text-right text-black title-font tracking-wider font-medium ">
-                        <a href="/materialeditar" class="mt-3 text-indigo-500 inline-flex items-center">Editar</a>
-                        <a class="mt-3 text-indigo-500 inline-flex items-center">Deletar</a>
+                        <a href="{{ route('products.edit' , $products->id) }}" class="mt-3 text-indigo-500 inline-flex items-center">Editar</a>
+                        <a href="{{ route('products.destroy' , $products->id) }}" class="mt-3 text-indigo-500 inline-flex items-center">Deletar</a>
                     </td>
                
                 </tr>
