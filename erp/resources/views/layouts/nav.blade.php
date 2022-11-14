@@ -5,12 +5,12 @@
         </div>
         <nav>
         <div class="text-center text-l text-black font-bold space-x-48 ">
-                <a href="/ordem_serviço">OS</a>
-                <a href="/colaboradores">PRODUTIVOS</a>
+                <a href="/ordem_serviço">SERVIÇOS</a>
+                <a href="/produtivos">PRODUTIVOS</a>
                 <a href="/products">MATERIAIS</a>
                 <a href="/apontamentos">APONTAMENTOS</a>
                 <a href="/comissoes">COMISSÕES</a>
-                <a href="/user">LOGIN</a>
+                <a href="/user">SAIR</a>
             </div>
 
         </nav>
