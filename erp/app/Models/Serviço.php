@@ -18,6 +18,7 @@ class Serviço extends Model
         'montagem', 
         'polimento',
         'encerrada',
+        'peças',
     ];
 
     public function products(){

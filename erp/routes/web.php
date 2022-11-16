@@ -4,7 +4,7 @@ namespace App;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\{
     ProductsController,
-    ProdutivoController
+    ProdutivoController,
 };
 
 /* Routes dos materiais */

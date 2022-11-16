@@ -35,4 +35,34 @@ public function store(Request $request)
 
 }
 
+public function edit(Produtivo $produtivo)
+{
+    return view('/produtivos_edit', 
+    [
+        'produtivo' => $produtivo
+    ]);
+}
+
+public function update(Produtivo $produtivo, Request $request)
+{
+    $input = [
+        'nome' => request('nome'),
+        'função' => request('função'),
+        
+ 
+    ];
+    $produtivo->fill($input);
+    $produtivo->save();
+    return redirect('produtivos');
+
+}
+
+public function destroy(Produtivo $produtivo)
+{
+    $produtivo->delete();
+    return redirect('produtivos');
+
+}
+
+
 }
