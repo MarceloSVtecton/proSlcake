@@ -5,11 +5,10 @@
         </div>
         <nav>
         <div class="text-center text-l text-black font-bold space-x-48 ">
-                <a href="/ordem_serviço">SERVIÇOS</a>
+                <a href="/serviços">SERVIÇOS</a>
                 <a href="/produtivos">PRODUTIVOS</a>
                 <a href="/products">MATERIAIS</a>
-                <a href="/apontamentos">APONTAMENTOS</a>
-                <a href="/comissoes">COMISSÕES</a>
+                <a href="/comissoes">RELATÓRIOS</a>
                 <a href="/user">SAIR</a>
             </div>
 

@@ -2,8 +2,9 @@
 
 namespace App\Models;
 
-use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use App\Http\Controllers\ServiçoController;
+use Illuminate\Database\Eloquent\Factories\HasFactory;
 
 class Serviço extends Model
 {

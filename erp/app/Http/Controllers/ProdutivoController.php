@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
+use Illuminate\Support\Facades\Route;
 
 use App\Models\Produtivo;
 use Illuminate\Http\Request;

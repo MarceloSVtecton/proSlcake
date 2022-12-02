@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use Illuminate\Support\Facades\Route;
 use App\Models\Products;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
