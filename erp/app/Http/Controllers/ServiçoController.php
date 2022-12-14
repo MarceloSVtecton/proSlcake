@@ -1,11 +1,12 @@
 <?php
 
 namespace App\Http\Controllers;
-use Illuminate\Support\Facades\Route;
-
 use App\Models\Serviço;
+
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
+use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ServiçoController;
 use Illuminate\Routing\Controller as BaseController;
 
 
@@ -47,7 +48,7 @@ class ServiçoController extends Controller
 
     public function edit(Serviço $serviço)
     {
-        return view('/serviços_edit', 
+        return view('editserviços', 
         [
             'serviço' => $serviço
         ]);

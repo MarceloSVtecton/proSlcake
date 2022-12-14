@@ -2,6 +2,10 @@
 
 namespace App\Models;
 
+use App\Models\Serviço;
+
+use App\Models\Products;
+use App\Models\Produtivo;
 use Illuminate\Database\Eloquent\Model;
 use App\Http\Controllers\ServiçoController;
 use Illuminate\Database\Eloquent\Factories\HasFactory;

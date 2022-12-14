@@ -2,11 +2,10 @@
 namespace App;
 use Illuminate\Support\Facades\Route ;
 use App\Models\Serviço;
-use App\Http\Controllers\{
-    ProductsController,
-    ProdutivoController,
-    ServiçoController,
-};
+use App\Http\Controllers\ServiçoController;
+use App\Http\Controllers\ProductsController;
+use App\Http\Controllers\ProdutivoController;
+
 
 /* Routes dos materiais */
 
@@ -48,7 +47,7 @@ Route::get('/produtivo/{produtivo}/delete', [ProdutivoController::class, 'destro
 
 /*Routes dos serviços*/
 
-Route::get('/serviço/{serviço}/edit', [ServiçoController::class, 'edit'])->name('serviço.edit');
+
 
 Route::get('/serviços', [ServiçoController::class, 'index']);
 
@@ -56,7 +55,7 @@ Route::get('/serviço/create', [ServiçoController::class, 'create']);
 
 Route::post('/serviço/store', [ServiçoController::class, 'store']);
 
-
+Route::get('/serviço/{serviço}/edit', [ServiçoController::class, 'edit'])->name('serviço.edit');
 
 Route::put('/serviço/{serviço}/update', [ServiçoController::class, 'update'])->name('serviço.update');
 

@@ -31,7 +31,7 @@
                     <td class="px-4 py-3">{{ $serviço->encerrada }}</td>
                     
                     <td class="px-4 py-3 text-right text-black title-font tracking-wider font-medium ">
-                        <a href= "{{ route('serviço.edit' , $serviço->id) }}" class="mt-3 text-indigo-500 inline-flex items-center">Apontar</a>
+                        <a href="{{ route('serviço.edit' , $serviço->id) }}" class="mt-3 text-indigo-500 inline-flex items-center">Apontar</a>
                         <a href="{{ route('serviço.destroy' , $serviço->id) }}" class="mt-3 text-indigo-500 inline-flex items-center">Deletar</a>
                     </td>
                

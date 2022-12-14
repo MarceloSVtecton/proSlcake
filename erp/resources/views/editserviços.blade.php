@@ -26,6 +26,7 @@
                                 <label for="name" class="leading-7 text-sm text-black-900">Os</label>
                                 <input type="text" id="os" name="os" value="{{ $serviço->os }}" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
                             </div>
+                        </div>
                            
 
                        
@@ -37,7 +38,7 @@
                                 <input type="text" id="funilaria" name="funilaria" value="{{ $serviço->funilaria }}"
                                     class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
                             </div>
-                            </div>
+                        </div>
                           
                         <div class="p-2 w-1/2">
                             <div class="relative">
@@ -45,7 +46,7 @@
                                 <input type="text" id="pintura" name="pintura" value="{{ $serviço->pintura }}"
                                     class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
                             </div>
-                            </div>
+                        </div>
                           
                         <div class="p-2 w-1/2">
                             <div class="relative">
@@ -53,7 +54,7 @@
                                 <input type="text" id="preparação" name="preparação" value="{{ $serviço->preparação }}"
                                     class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
                             </div>
-                            </div>
+                        </div>
 
                         <div class="p-2 w-1/2">
                             <div class="relative">
@@ -61,7 +62,7 @@
                                 <input type="text" id="montagem" name="montagem" value="{{ $serviço->montagem }}"
                                     class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
                             </div>
-                            </div>
+                        </div>
 
                         <div class="p-2 w-1/2">
                             <div class="relative">
@@ -69,7 +70,7 @@
                                 <input type="text" id="polimento" name="polimento" value="{{ $serviço->polimento }}"
                                     class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
                             </div>
-                            </div>
+                        </div>
 
                         <div class="p-2 w-1/2">
                             <div class="relative">
@@ -77,7 +78,7 @@
                                 <input type="text" id="encerrada" name="encerrada" value="{{ $serviço->encerrada }}"
                                     class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
                             </div>
-                            </div>
+                        </div>
 
                         <div class="p-2 w-1/2">
                             <div class="relative">
@@ -85,7 +86,7 @@
                                 <input type="text" id="peças" name="peças" value="{{ $serviço->peças }}"
                                     class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
                             </div>
-                            </div>
+                        </div>
                           
                           
                           
@@ -96,7 +97,7 @@
                         </div>
 
                     </div>
-                </form>
+            </form>
             </div>
         </div>
     </section>
